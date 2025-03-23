@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 module.exports = (req, res) => {
-    fetch('https://i.mjh.nz/nz/tv.json')
+    fetch('http://rayuvtsi-stb.site/ott/ott-7.json')
         .then(r => r.json())
         .then(r => res.json(r));
 }
