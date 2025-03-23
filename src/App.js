@@ -79,7 +79,7 @@ class App extends Component {
         return (
             <Container fluid style={{backgroundColor: 'black'}}>
                 <Navbar bg="dark" variant="dark">
-                    <NavbarBrand>Freeview NZ</NavbarBrand>
+                    <NavbarBrand>RAYUVTSI-STB</NavbarBrand>
                     <Nav className="mr-auto">
                         <NavDropdown id="channelDropdown" title="Channels">
                             {channels}
